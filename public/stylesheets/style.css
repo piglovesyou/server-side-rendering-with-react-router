@@ -1,0 +1,44 @@
+html,body {
+  margin: 0;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+
+body,
+#application-wrapper,
+.application {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header,
+.body,
+.sidebar,
+.content {
+}
+
+.header {
+  padding: 16px;
+}
+.body {
+  display: flex;
+  flex: 1;
+}
+.sidebar {
+  padding: 16px;
+  background-color: ghostwhite;
+}
+.content {
+  padding: 16px;
+  flex: 1;
+  background-color: snow;
+}
